@@ -3,4 +3,4 @@
         first_name,
         last_name
 
-    from jaffle_shop_raw.customers
+    from {{ source('jaffle_shop', 'customers') }}

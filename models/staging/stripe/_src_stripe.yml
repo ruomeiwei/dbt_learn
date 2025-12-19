@@ -1,0 +1,6 @@
+sources:
+  - name: stripe
+    database: clean-respect-481114-j5
+    schema: stripe_raw
+    tables:
+      - name: payment
